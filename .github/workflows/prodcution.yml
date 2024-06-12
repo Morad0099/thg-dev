@@ -20,3 +20,4 @@ jobs:
           use_insecure_cipher: true
           script: |
            pwd
+           ls
