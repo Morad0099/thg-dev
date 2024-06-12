@@ -1,0 +1,21 @@
+name: Deploy to production
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Perform deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute SSH commands
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          debug: true
+          use_insecure_cipher: true
+          script: |
+           pwd
