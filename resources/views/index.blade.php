@@ -29,7 +29,7 @@
         <!-- Navigation Items -->
     </div>
     <div class="button-container">
-        <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+        <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>
@@ -44,7 +44,7 @@
         <!-- Navigation Items -->
     </div>
     <div class="button-container">
-        <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+        <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>
@@ -59,7 +59,7 @@
         <!-- Navigation Items -->
     </div>
     <div class="button-container">
-        <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+        <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>
@@ -74,7 +74,7 @@
         <!-- Navigation Items -->
     </div>
     <div class="button-container">
-        <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+        <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>
@@ -89,7 +89,7 @@
         <!-- Navigation Items -->
     </div>
     <div class="button-container">
-        <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+        <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>

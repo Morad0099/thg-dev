@@ -82,31 +82,31 @@
                 <div class="estate">
                     <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
                     <h6 class="estate-name">Thessa's Corner</h6>
-                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
                 <div class="estate">
                     <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
                     <h6 class="estate-name">Hillgrove</h6>
-                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
                 <div class="estate">
                     <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
                     <h6 class="estate-name">Lucas Court</h6>
-                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
                 <div class="estate">
                     <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
                     <h6 class="estate-name">Hill Rise Villas</h6>
-                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
                 <div class="estate">
                     <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
                     <h6 class="estate-name">Queens Park</h6>
-                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
                     <button class="btn btn-secondary">More Details</button>
                 </div>
             </div>
