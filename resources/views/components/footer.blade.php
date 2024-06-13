@@ -11,8 +11,8 @@
                 <h5>Contact Us</h5>
                 <ul>
                     <li>Email: info@example.com</li>
-                    <li>Phone: +1 (123) 456-7890</li>
-                    <li>Address: 123 Street Name, City, Country</li>
+                    <li>Phone: + (233) 558-871838</li>
+                    <li>Address: 123 East Legon, Accra, Ghana</li>
                 </ul>
             </div>
             <div class="col-md-4">

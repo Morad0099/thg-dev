@@ -93,6 +93,7 @@
         <button class="btn btn-secondary">MORE DETAILS</button>
     </div>
 </div>
+
 @endsection
 
 

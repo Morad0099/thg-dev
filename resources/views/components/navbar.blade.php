@@ -6,7 +6,7 @@
 
 <!-- Menu Button for smaller screens -->
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#drawerMenu" aria-controls="drawerMenu"
-    aria-expanded="false" aria-label="Toggle navigation" id="menuButton">&#9776;
+    aria-expanded="false" aria-label="Toggle navigation" id="menuButton">Menu
 </button>
 <!-- Navigation Items -->
 <div class="navbar-custom">
@@ -48,22 +48,22 @@
     <div class="drawer-content">
         <div class="nav-item">
             <a class="nav-link" href="#">
-                Estates <span class="arrow-icon">&gt;</span>
+                Estates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="arrow-icon">&gt;</span>
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                Enquiries  <span class="arrow-icon">&gt;</span>
+                Enquiries  &nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                About Us  <span class="arrow-icon">&gt;</span>
+                About Us  &nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                Contacts  <span class="arrow-icon">&gt;</span>
+                Contacts  &nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
             </a>
         </div>
         {{-- <div class="nav-item">

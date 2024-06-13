@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url('/images/w3.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/w3.jpg');
     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); */
     display: flex;
     flex-direction: column;
@@ -56,8 +56,9 @@ body {
 
 .description h3 {
     font-size: 2.5rem;
-    font-weight: bold; /* Increased font weight */
-    margin: 0; 
+    font-weight: bold;
+    /* Increased font weight */
+    margin: 0;
 }
 
 .description .price {
@@ -77,7 +78,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url('/images/w1.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/w1.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +94,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url('/images/w4.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/w4.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +110,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url('/images/x.1.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/x.1.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +126,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url('/images/x.2.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/x.2.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +227,8 @@ body {
 }
 
 .logo img {
-    height: 150px; /* Increase the height to a professional value */
+    height: 150px;
+    /* Increase the height to a professional value */
 }
 
 
@@ -260,7 +262,8 @@ body {
 }
 
 .nav-link:hover {
-    background-color: rgba(237, 235, 235, 0.7); /* Background color with reduced opacity */
+    background-color: rgba(237, 235, 235, 0.7);
+    /* Background color with reduced opacity */
     border-radius: 5px;
 }
 
@@ -319,7 +322,8 @@ body {
 
 .estate-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
     gap: 16px;
     justify-content: center;
     padding: 20px;
@@ -331,7 +335,8 @@ body {
     align-items: center;
     border: 1px solid #ddd;
     padding: 16px;
-    max-width: 100%; /* Ensures it fits within grid column */
+    max-width: 100%;
+    /* Ensures it fits within grid column */
     text-align: center;
     transition: transform 0.3s ease;
     box-sizing: border-box;
@@ -341,16 +346,23 @@ body {
     transform: scale(1.05);
 }
 
+.estate .estate-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .estate-img {
     width: 100%;
     height: auto;
     margin-bottom: 8px;
-    max-height: 200px; /* Adjust the height to increase image size */
+    max-height: 200px;
+    /* Adjust the height to increase image size */
 }
 
 .navbar-toggler {
     display: none;
-    background: none;
+    background: rgba(255, 255, 255, 0.5);
+    /* White with 50% opacity (greyish) */
     border: none;
     font-size: 30px;
     cursor: pointer;
@@ -358,7 +370,19 @@ body {
     top: 10px;
     right: 20px;
     z-index: 1001;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    color: black;
+    /* Ensure button text is readable */
+    border-radius: 5px;
+    /* Optional: add rounded corners */
 }
+
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Adjust opacity on hover */
+}
+
 
 .drawer-menu {
     position: fixed;
@@ -413,6 +437,23 @@ body {
         margin-bottom: 10px;
         font-size: medium;
     }
+
+    .description {
+        padding: 10px;
+        max-width: 300px;
+    }
+
+    .description h3 {
+        font-size: 1.5rem;
+    }
+
+    .description .price {
+        font-size: 1rem;
+    }
+
+    .description .location {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -437,6 +478,7 @@ body {
 @media (max-width: 768px) {
     .footer {
         padding: 30px 10px;
+        text-align: center;
     }
 
     .footer h5 {
