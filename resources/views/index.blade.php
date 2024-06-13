@@ -5,7 +5,7 @@
 <div class="fullscreen-bg">
     <div class="content-overlay">
         <!-- Add any content you want to display over the image here -->
-        <!-- Navigation Items -->
+        <!-- Navigation Itemds -->
         <video autoplay muted loop id="bg-video">
             <source src="/videos/vid1.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
