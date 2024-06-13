@@ -194,11 +194,11 @@ body {
 .btn-secondary {
     background-color: #ffb600 !important;
     border-color: #000 !important;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .btn-secondary:hover {
-    background-color: #333 !important;
+    background-color: #ffb600 !important;
     border-color: #333 !important;
 }
 
@@ -252,11 +252,11 @@ body {
 }
 
 .nav-link {
-    color: black !important;
+    color: #ffb600 !important;
     padding: 10px;
     border-radius: 5px;
     font-weight: 550;
-    font-size: small;
+    font-size: medium;
 }
 
 .nav-link:hover {
@@ -296,15 +296,10 @@ body {
     /* Smooth transition for content */
     pointer-events: all;
     /* Allow interaction with the content */
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     align-items: center;
     opacity: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    padding: 5px;
-    justify-items: center;
     /* Initially hide the overlay content */
 }
 
@@ -322,28 +317,35 @@ body {
     /* Show the overlay */
 }
 
-.estate-card {
-    background-color: white;
-    padding: 5px; /* Adjusted padding */
+.estate-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.estate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 100%; /* Ensures it fits within grid column */
     text-align: center;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
 }
 
-.estate-card img {
-    max-width: 100%;
-    border-radius: 8px;
+.estate:hover {
+    transform: scale(1.05);
 }
 
-.estate-card h5 {
-    font-size: 0.9rem; /* Reduced font size */
-    margin: 5px 0; /* Adjusted margin */
-}
-
-.estate-card .card-text {
-    font-size: 0.7rem; /* Reduced font size */
-    margin: 5px 0; /* Adjusted margin */
+.estate-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    max-height: 200px; /* Adjust the height to increase image size */
 }
 
 .navbar-toggler {

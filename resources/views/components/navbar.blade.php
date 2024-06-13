@@ -74,47 +74,44 @@
     </div>
 </div>
 
-<!-- Overlay Cards -->
-<div class="overlay" id="overlay1">
-    <div class="overlay-content">
-        <div class="estate-card">
-            <img src="/images/w1.jpg" alt="Estate 1">
-            <h5 class="card-title">Estate 1</h5>
-            {{-- <p class="card-text">Description of Estate 1...</p> --}}
-            <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
+
+    <!-- Overlay for displaying estate details -->
+    <div class="overlay" id="overlay1">
+        <div class="overlay-content">
+            <div class="estate-container">
+                <div class="estate">
+                    <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
+                    <h6 class="estate-name">Thessa's Corner</h6>
+                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+                <div class="estate">
+                    <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
+                    <h6 class="estate-name">Hillgrove</h6>
+                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+                <div class="estate">
+                    <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
+                    <h6 class="estate-name">Lucas Court</h6>
+                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+                <div class="estate">
+                    <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
+                    <h6 class="estate-name">Hill Rise Villas</h6>
+                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+                <div class="estate">
+                    <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
+                    <h6 class="estate-name">Queens Park</h6>
+                    <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <button class="btn btn-secondary">More Details</button>
+                </div>
+            </div>
         </div>
-        <div class="estate-card">
-            <img src="/images/w3.jpg" alt="Estate 2">
-            <h5 class="card-title">Estate 2</h5>
-            {{-- <p class="card-text">Description of Estate 2...</p> --}}
-            <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
-        </div>
-        <div class="estate-card">
-            <img src="/images/w4.jpg" alt="Estate 3">
-            <h5 class="card-title">Estate 3</h5>
-            {{-- <p class="card-text">Description of Estate 2...</p> --}}
-            <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
-        </div>
-        <div class="estate-card">
-            <img src="/images/w3.jpg" alt="Estate 2">
-            <h5 class="card-title">Estate 4</h5>
-            {{-- <p class="card-text">Description of Estate 2...</p> --}}
-            <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
-        </div>
-        <div class="estate-card">
-            <img src="/images/w3.jpg" alt="Estate 5">
-            <h5 class="card-title">Estate 5</h5>
-            {{-- <p class="card-text">Description of Estate 2...</p> --}}
-            <a href="https://wa.me/0558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
-        </div>
-        <!-- Add more estate cards as needed -->
     </div>
-</div>
 <div class="overlay" id="overlay2">
     <div class="overlay-content">
         <h5 class="card-title">Enquiry Details</h5>
