@@ -1,6 +1,6 @@
 <!-- Company Logo -->
 <div class="logo">
-    <img src="{{ asset('logo/logo2.png') }}" alt="Company Logo">
+    <a href="/"><img src="{{ asset('logo/logo2.png') }}" alt="Company Logo"></a>
 </div>
 
 
@@ -47,24 +47,43 @@
     </div>
     <div class="drawer-content">
         <div class="nav-item">
-            <a class="nav-link" href="#">
-                Estates &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="arrow-icon">&gt;</span>
+            <a class="nav-link" href="/thessas_corner">
+                Thessa's Corner
+            </a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/hillgrove">
+                Hillgrove
+            </a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/lucas_court">
+                Lucas Court
+            </a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/hill_rise_villas">
+                Hill Rise Villas
+            </a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="/queens_park">
+                Queens Park
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                Enquiries  &nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
+                Enquiries
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                About Us  &nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
+                About Us
             </a>
         </div>
         <div class="nav-item">
             <a class="nav-link" href="#">
-                Contacts  &nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow-icon">&gt;</span>
-            </a>
+                Contacts </a>
         </div>
         {{-- <div class="nav-item">
             <a class="nav-link" href="#">
@@ -75,43 +94,48 @@
 </div>
 
 
-    <!-- Overlay for displaying estate details -->
-    <div class="overlay" id="overlay1">
-        <div class="overlay-content">
-            <div class="estate-container">
-                <div class="estate">
-                    <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
-                    <h6 class="estate-name">Thessa's Corner</h6>
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
-                <div class="estate">
-                    <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
-                    <h6 class="estate-name">Hillgrove</h6>
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
-                <div class="estate">
-                    <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
-                    <h6 class="estate-name">Lucas Court</h6>
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
-                <div class="estate">
-                    <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
-                    <h6 class="estate-name">Hill Rise Villas</h6>
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
-                <div class="estate">
-                    <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
-                    <h6 class="estate-name">Queens Park</h6>
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-                    <button class="btn btn-secondary">More Details</button>
-                </div>
+<!-- Overlay for displaying estate details -->
+<div class="overlay" id="overlay1">
+    <div class="overlay-content">
+        <div class="estate-container">
+            <div class="estate">
+                <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
+                <h6 class="estate-name">Thessa's Corner</h6>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <button class="btn btn-secondary" onclick="window.location.href='{{ route('thessas_corner') }}'">More
+                    Details</button>
+            </div>
+            <div class="estate">
+                <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
+                <h6 class="estate-name">Hillgrove</h6>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <button class="btn btn-secondary" onclick="window.location.href='{{ route('hillgrove') }}'">More
+                    Details</button>
+            </div>
+            <div class="estate">
+                <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
+                <h6 class="estate-name">Lucas Court</h6>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <button class="btn btn-secondary" onclick="window.location.href='{{ route('lucas_court') }}'">More
+                    Details</button>
+            </div>
+            <div class="estate">
+                <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
+                <h6 class="estate-name">Hill Rise Villas</h6>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <button class="btn btn-secondary"
+                    onclick="window.location.href='{{ route('hill_rise_villas') }}'">More Details</button>
+            </div>
+            <div class="estate">
+                <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
+                <h6 class="estate-name">Queens Park</h6>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <button class="btn btn-secondary" onclick="window.location.href='{{ route('queens_park') }}'">More
+                    Details</button>
             </div>
         </div>
     </div>
+</div>
 <div class="overlay" id="overlay2">
     <div class="overlay-content">
         <h5 class="card-title">Enquiry Details</h5>

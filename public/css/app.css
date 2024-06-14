@@ -10,11 +10,41 @@ body {
     /* Smooth transition for blur effect */
 }
 
-.fullscreen-bg {
+.carousel-container {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 500%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 20%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.fullscreen-bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/w3.jpg');
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffb600;
 }
 
 #bg-video {
@@ -324,7 +354,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* Three columns */
-    gap: 16px;
+    gap: 64px;
     justify-content: center;
     padding: 20px;
 }
@@ -355,7 +385,7 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 8px;
-    max-height: 200px;
+    max-height: 100px;
     /* Adjust the height to increase image size */
 }
 
@@ -422,6 +452,72 @@ body {
     padding: 20px;
 }
 
+.estate-details {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.estate-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.estate-details .description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.estate-details h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.features {
+    margin-top: 50px;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.features li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.gallery {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 300px; /* Set a fixed height for larger images */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.but-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.but-container .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .navbar-toggler {
@@ -453,6 +549,50 @@ body {
 
     .description .location {
         font-size: 0.9rem;
+    }
+
+    .estate-details {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .estate-details h1 {
+        font-size: 2rem;
+        /* text-align: center; */
+    }
+
+    .estate-details .description {
+        font-size: 1rem;
+    }
+
+    .estate-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .features {
+        margin-top: 200px;
+    }
+
+    .features ul {
+        margin-left: 10px;
+    }
+
+    .features li {
+        font-size: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust columns for small screens */
+    }
+
+    .gallery-image {
+        height: 200px; /* Adjust image height for small screens */
+    }
+
+    .but-container .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
     }
 }
 
