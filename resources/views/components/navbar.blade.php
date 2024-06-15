@@ -47,51 +47,39 @@
     </div>
     <div class="drawer-content">
         <div class="nav-item">
-            <a class="nav-link" href="/thessas_corner">
-                Thessa's Corner
+            <a class="nav-link" href="#" id="estatesLink">
+                Estates <span class="arrow-icon">&#x25BC;</span>
             </a>
+            <div class="dropdown-menu" id="estatesDropdown">
+                <div class="drawer-item">
+                    <a class="nav-link" href="/thessas_corner">Thessa's Corner</a>
+                </div>
+                <div class="drawer-item">
+                    <a class="nav-link" href="/hillgrove">Hillgrove</a>
+                </div>
+                <div class="drawer-item">
+                    <a class="nav-link" href="/lucas_court">Lucas Court</a>
+                </div>
+                <div class="drawer-item">
+                    <a class="nav-link" href="/hill_rise_villas">Hill Rise Villas</a>
+                </div>
+                <div class="drawer-item">
+                    <a class="nav-link" href="/queens_park">Queens Park</a>
+                </div>
+            </div>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="/hillgrove">
-                Hillgrove
-            </a>
+            <a class="nav-link" href="#">Enquiries</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="/lucas_court">
-                Lucas Court
-            </a>
+            <a class="nav-link" href="#">About Us</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="/hill_rise_villas">
-                Hill Rise Villas
-            </a>
+            <a class="nav-link" href="#">Contacts</a>
         </div>
-        <div class="nav-item">
-            <a class="nav-link" href="/queens_park">
-                Queens Park
-            </a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="#">
-                Enquiries
-            </a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="#">
-                About Us
-            </a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="#">
-                Contacts </a>
-        </div>
-        {{-- <div class="nav-item">
-            <a class="nav-link" href="#">
-                Queens Park  <span class="arrow-icon">&gt;</span>
-            </a>
-        </div> --}}
     </div>
 </div>
+
 
 
 <!-- Overlay for displaying estate details -->
@@ -101,35 +89,35 @@
             <div class="estate">
                 <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Thessa's Corner</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
                 <button class="btn btn-secondary" onclick="window.location.href='{{ route('thessas_corner') }}'">More
                     Details</button>
             </div>
             <div class="estate">
                 <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Hillgrove</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
                 <button class="btn btn-secondary" onclick="window.location.href='{{ route('hillgrove') }}'">More
                     Details</button>
             </div>
             <div class="estate">
                 <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Lucas Court</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
                 <button class="btn btn-secondary" onclick="window.location.href='{{ route('lucas_court') }}'">More
                     Details</button>
             </div>
             <div class="estate">
                 <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Hill Rise Villas</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
                 <button class="btn btn-secondary"
                     onclick="window.location.href='{{ route('hill_rise_villas') }}'">More Details</button>
             </div>
             <div class="estate">
                 <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Queens Park</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
                 <button class="btn btn-secondary" onclick="window.location.href='{{ route('queens_park') }}'">More
                     Details</button>
             </div>
@@ -191,14 +179,24 @@
                 overlay.querySelector('.overlay-content').classList.remove('visible');
             });
         });
-    });
 
-    // document.addEventListener("DOMContentLoaded", function() {
-    //         $('#menuButton').on('click', function() {
-    //             $('#drawerMenu').collapse('toggle');
-    //         });
-    //         $('#closeButton').on('click', function() {
-    //             $('#drawerMenu').collapse('hide');
-    //         });
-    //     });
+        // Handle dropdown in drawer menu
+        const estatesLink = document.getElementById('estatesLink');
+        const estatesDropdown = document.getElementById('estatesDropdown');
+        const arrowIcon = estatesLink.querySelector('.arrow-icon');
+
+        estatesLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            estatesDropdown.classList.toggle('show');
+            arrowIcon.innerHTML = estatesDropdown.classList.contains('show') ? '&#x25B2;' : '&#x25BC;';
+        });
+
+        // Optional: Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!estatesLink.contains(event.target) && !estatesDropdown.contains(event.target)) {
+                estatesDropdown.classList.remove('show');
+                arrowIcon.innerHTML = '&#x25BC;';
+            }
+        });
+    });
 </script>

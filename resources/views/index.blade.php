@@ -10,7 +10,7 @@
             <img src="/images/x.2.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
-            <!-- Add any content you want to display over the image here -->
+            <h1 class="welcome-message">Welcome to Treehill Global Developers</h1>
             <!-- Navigation Items -->
         </div>
         {{-- <x-navbar></x-navbar> --}}
