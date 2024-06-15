@@ -25,7 +25,6 @@ jobs:
            git checkout master
            git pull origin master
            composer2 install --no-dev
-           npm run build
            php artisan view:cache
            php artisan up         
            
