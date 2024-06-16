@@ -89,41 +89,37 @@
             <div class="estate">
                 <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Thessa's Corner</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-                <button class="btn btn-secondary" onclick="window.location.href='{{ route('thessas_corner') }}'">More
-                    Details</button>
+                <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
+                <a href="{{ route('thessas_corner') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
                 <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Hillgrove</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-                <button class="btn btn-secondary" onclick="window.location.href='{{ route('hillgrove') }}'">More
-                    Details</button>
+                <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
+                <a href="{{ route('hillgrove') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
                 <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Lucas Court</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-                <button class="btn btn-secondary" onclick="window.location.href='{{ route('lucas_court') }}'">More
-                    Details</button>
+                <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
+                <a href="{{ route('lucas_court') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
                 <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Hill Rise Villas</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-                <button class="btn btn-secondary"
-                    onclick="window.location.href='{{ route('hill_rise_villas') }}'">More Details</button>
+                <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
+                <a href="{{ route('hill_rise_villas') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
                 <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
                 <h6 class="estate-name">Queens Park</h6>
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-                <button class="btn btn-secondary" onclick="window.location.href='{{ route('queens_park') }}'">More
-                    Details</button>
+                <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
+                <a href="{{ route('queens_park') }}" class="link-text">More Details</a>
             </div>
         </div>
     </div>
 </div>
+
 <div class="overlay" id="overlay2">
     <div class="overlay-content">
         <h5 class="card-title">Enquiry Details</h5>

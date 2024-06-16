@@ -15,8 +15,8 @@
         </div>
         {{-- <x-navbar></x-navbar> --}}
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
-            <button class="btn btn-secondary">MORE DETAILS</button>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
+            <button class="btn btn-secondary">More Details</button>
         </div>
     </div>
     <div class="fullscreen2-bg">
@@ -30,7 +30,7 @@
             <!-- Navigation Items -->
         </div>
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary" onclick="window.location.href='{{route('thessas_corner')}}'">More Details</button>
         </div>
     </div>
@@ -45,7 +45,7 @@
             <!-- Navigation Items -->
         </div>
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary" onclick="window.location.href='{{route('hillgrove')}}'">More Details</button>
         </div>
     </div>
@@ -60,7 +60,7 @@
             <!-- Navigation Items -->
         </div>
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary" onclick="window.location.href='{{route('lucas_court')}}'">More Details</button>
         </div>
     </div>
@@ -75,7 +75,7 @@
             <!-- Navigation Items -->
         </div>
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary" onclick="window.location.href='{{route('hill_rise_villas')}}'">More Details</button>
         </div>
     </div>
@@ -90,7 +90,7 @@
             <!-- Navigation Items -->
         </div>
         <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary" onclick="window.location.href='{{route('queens_park')}}'">More Details</button>
         </div>
     </div>

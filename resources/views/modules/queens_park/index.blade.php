@@ -5,20 +5,20 @@
     <h1>QUEEN'S PARK ESTATE</h1>
     <div class="content-container">
         <div class="image-section">
-            <h2 style="margin-left: 50px">Gallery</h2>
-            <h3 style="margin-left: 50px">Interior</h3>
+            {{-- <h2 style="margin-left: 50px">Gallery</h2> --}}
+            {{-- <h3 style="margin-left: 50px">Interior</h3> --}}
             <div class="gallery-container">
                 <button class="arrow prev" onclick="prevImage('interior')">&#9664;</button>
                 <img id="interior-image" src="{{ asset('images/interior/' . $interiorImages[0]) }}" alt="Interior Image" class="gallery-image">
                 <button class="arrow next" onclick="nextImage('interior')">&#9654;</button>
             </div>
 
-            <h3 style="margin-left: 50px; margin-top: 10px">Exterior</h3>
+            {{-- <h3 style="margin-left: 50px; margin-top: 10px">Exterior</h3>
             <div class="gallery-container">
                 <button class="arrow prev" onclick="prevImage('exterior')">&#9664;</button>
                 <img id="exterior-image" src="{{ asset('images/' . $exteriorImages[0]) }}" alt="Exterior Image" class="gallery-image">
                 <button class="arrow next" onclick="nextImage('exterior')">&#9654;</button>
-            </div>
+            </div> --}}
         </div>
         <div class="text-section">
             <p class="description">
