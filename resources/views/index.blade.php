@@ -14,10 +14,10 @@
             <!-- Navigation Items -->
         </div>
         {{-- <x-navbar></x-navbar> --}}
-        <div class="button-container">
+        {{-- <div class="button-container">
             <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
             <button class="btn btn-secondary">More Details</button>
-        </div>
+        </div> --}}
     </div>
     <div class="fullscreen2-bg">
         <div class="description">
