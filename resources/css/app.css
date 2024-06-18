@@ -504,54 +504,56 @@ body {
 
 .estate-details {
     padding: 40px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 50px auto;
     background: #fff;
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .estate-details h1 {
-    font-size: 2.5rem;
+    font-size: 2rem; /* Reduced font size */
     margin-bottom: 20px;
-    text-align: center;
+    font-weight: 700; /* Bold text */
+    margin-bottom: 20px;
+    /* text-align: center; */
     color: #2c3e50;
+    margin-left: 1200px;
 }
 
 .content-container {
     display: flex;
     gap: 40px;
+    align-items: flex-start;
 }
 
 .image-section {
-    flex: 1;
-    margin-left: -250px;
-    
+    flex: 7; /* 70% of the width */
 }
 
 .text-section {
-    flex: 1;
+    flex: 3; /* 30% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.estate-details .description {
+.description {
     font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.8;
     color: #34495e;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-}
-
-.estate-details h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #ffb600;
+    margin-top: 30px;
 }
 
 .features {
     margin-top: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffb600;
 }
 
 .features ul {
@@ -566,6 +568,11 @@ body {
     color: #7f8c8d;
 }
 
+.button-container {
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
 .gallery-container {
     display: flex;
     align-items: center;
@@ -576,11 +583,8 @@ body {
 
 .gallery-image {
     width: 100%;
-    margin-top: 30px;
-    max-width: 800px;
+    max-width: 1400px; /* Increased max-width for larger image */
     height: auto;
-    max-height: 800px;
-    object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
@@ -600,7 +604,6 @@ body {
     transform: translateY(-50%);
     z-index: 10;
     border-radius: 50%;
-    /* font-size: 1.5rem; */
     transition: background-color 0.3s ease;
 }
 
@@ -609,12 +612,13 @@ body {
 }
 
 .arrow.prev {
-    left: 30px;
+    left: 10px;
 }
 
 .arrow.next {
-    right: 30px;
+    right: 10px;
 }
+
 
 .link-text {
     text-decoration: underline;
@@ -704,8 +708,21 @@ body {
         margin-top: 20px;
     }
 
+    .estate-details h1 {
+        font-size: 1.5rem; /* Further reduced font size */
+        margin-left: 100px !important;
+    }
+
+    .button-container {
+        margin-top: -10px; /* Adjusted margin-top for smaller screens */
+        margin-left: 0; /* Center-align button for smaller screens */
+        text-align: center;
+        font-size: 1.2rem; /* Adjusted for smaller screens */
+        padding: 12px 24px; /* Adjusted padding for smaller screens */
+    }
+
     .gallery-container {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .gallery-image {
