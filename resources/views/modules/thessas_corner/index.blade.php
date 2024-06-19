@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="text-section">
-            <p class="description">
+            <p class="desc">
                 Thessas's Estate offers luxury living with modern amenities and beautiful surroundings.
                 Located in the heart of the city, it provides easy access to all major attractions and facilities.
             </p>
@@ -26,7 +26,7 @@
                     <li>Swimming pool</li>
                 </ul>
             </div>
-            <div class="button-container">
+            <div class="butt-container">
                 <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
             </div>
         </div>
