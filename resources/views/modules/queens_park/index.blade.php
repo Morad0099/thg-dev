@@ -7,7 +7,7 @@
         <div class="image-section">
             <div class="gallery-container">
                 <button class="arrow prev" onclick="prevImage('interior')">&#9664;</button>
-                <img id="interior-image" src="{{ asset('images/interior/' . $interiorImages[0]) }}" alt="Interior Image" class="gallery-image lazyload">
+                <img id="interior-image" src="{{ asset('images/interior/' . $interiorImages[0]) }}" alt="Interior Image" class="gallery-image">
                 <button class="arrow next" onclick="nextImage('interior')">&#9654;</button>
             </div>
         </div>
