@@ -17,7 +17,7 @@
     </div>
     <div class="nav-item" data-target="overlay2">
         <a class="nav-link" href="#">
-            Enquiries
+            Our Mission
         </a>
     </div>
     <div class="nav-item" data-target="overlay3">
@@ -27,7 +27,7 @@
     </div>
     <div class="nav-item" data-target="overlay4">
         <a class="nav-link" href="#">
-            Contacts
+            Our Vision
         </a>
     </div>
     {{-- <div class="nav-item" data-target="overlay5">
@@ -69,13 +69,16 @@
             </div>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="#">Enquiries</a>
+            <a class="nav-link" href="{{route('our_mission')}}">Our Mission</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="{{route('about_us')}}">About Us</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="{{route('our_vision')}}">Our Vision</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="{{route('our_team')}}">Our Team</a>
         </div>
     </div>
 </div>
@@ -122,20 +125,20 @@
 
 <div class="overlay" id="overlay2">
     <div class="overlay-content">
-        <h5 class="card-title">Enquiry Details</h5>
-        <p class="card-text">Description of Enquiry...</p>
+        <h5 class="card-title">Our Mission</h5>
+        <p class="card-text">To provide unparalleled services with integrity, professionalism, and a deep commitment to client satisfaction. We strive to make every transaction smooth and successful.</p>
     </div>
 </div>
 <div class="overlay" id="overlay3">
     <div class="overlay-content">
-        <h5 class="card-title">About us Details</h5>
-        <p class="card-text">Description of About us...</p>
+        <h5 class="card-title">About Us</h5>
+        <p class="card-text">THG Developers, operating in the vibrant real estate market in Ghana, offers a range of properties catering to diverse needs and preferences. With developments in sought-after locations like East Legon America House, Adjiringanor, and East Legon Hills, we provide options from off-plan to completed units. Our properties, spanning affordable to luxury price points, come with flexible financing options and clear legal documentation, ensuring accessibility and security for buyers.</p>
     </div>
 </div>
 <div class="overlay" id="overlay4">
     <div class="overlay-content">
-        <h5 class="card-title">Contact Details</h5>
-        <p class="card-text">Description of Contact...</p>
+        <h5 class="card-title">Our Vision</h5>
+        <p class="card-text">To be the leading firm in Accra known for our innovative approach, outstanding service, and commitment to excellence.</p>
     </div>
 </div>
 {{-- <div class="overlay" id="overlay5">

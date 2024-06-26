@@ -13,22 +13,30 @@
         </div>
         <div class="text-section">
             <p class="desc">
-                Lucas Court Estate offers luxury living with modern amenities and beautiful surroundings.
-                Located in the heart of the city, it provides easy access to all major attractions and facilities.
+                Discover unparalleled luxury in this magnificent 6-bedroom estate. Perfect for large families or those who love to entertain, this home offers expansive living spaces and high-end amenities. Starting price $70,000.00.
             </p>
             <div class="features">
-                <h2>Features</h2>
+                <div class="scrollable-content">
+
+                <h2>Key Features</h2>
                 <ul>
-                    <li>Spacious living areas</li>
-                    <li>Modern kitchen with state-of-the-art appliances</li>
-                    <li>Beautifully landscaped gardens</li>
-                    <li>24/7 security</li>
-                    <li>Swimming pool</li>
+                    <li><span style="font-weight: bold;">Grand Living Areas: </span>
+                        Multiple spacious living areas, including a formal living room, family room, and a separate dining room.</li>
+                    <li><span style="font-weight: bold;">Chef’s Kitchen: </span>
+                        A state-of-the-art kitchen equipped with high-end appliances, granite countertops, and custom cabinetry.</li>
+                    <li><span style="font-weight: bold;">Six Luxurious Bedrooms: </span>
+                        Generously sized bedrooms with ample closet space, including a master suite with a walk-in closet and a spa-like en-suite bathroom.</li>
+                    <li><span style="font-weight: bold;">Elegant Bathrooms: </span>
+                        Multiple bathrooms with premium fixtures and finishes, including a luxurious master en-suite.</li>
+                    <li><span style="font-weight: bold;">Exclusive Location: </span>
+                        Located in a prestigious neighborhood with top-rated schools, shopping, parks, and easy access to transportation.</li>
                 </ul>
+                <span style="font-weight: bold;">Why You'll Love This Home: </span> estates offer the ultimate in luxury living, with attention to every detail. Whether you’re hosting large gatherings or enjoying quiet family time, these homes provide the perfect setting for all your needs.
             </div>
             <div class="butt-container">
                 <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
             </div>
+        </div>
         </div>
     </div>
 </div>

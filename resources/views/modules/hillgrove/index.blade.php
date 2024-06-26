@@ -12,23 +12,33 @@
             </div>
         </div>
         <div class="text-section">
+            <div class="scrollable-content">
+
             <p class="desc">
-                HillGrove Estate offers luxury living with modern amenities and beautiful surroundings.
-                Located in the heart of the city, it provides easy access to all major attractions and facilities.
+                Explore our featured Hillgrove in a prime location in East Legon - Adjiringanor. This stunning 3-bedroom house offers the perfect blend of luxury, comfort, and modern living. Discover the perfect blend of comfort and style in this delightful 2-bedroom house. Ideal for small families, couples, or individuals seeking a cozy yet modern living space, this home offers all the amenities you need for a comfortable lifestyle. Starting price $75,000.00.
             </p>
             <div class="features">
-                <h2>Features</h2>
+                <h2>Key Features</h2>
                 <ul>
-                    <li>Spacious living areas</li>
-                    <li>Modern kitchen with state-of-the-art appliances</li>
-                    <li>Beautifully landscaped gardens</li>
-                    <li>24/7 security</li>
-                    <li>Swimming pool</li>
+                    <li><span style="font-weight: bold;">Cozy Living Room: </span>
+                         A warm and inviting living area with plenty of natural light, perfect for relaxing or entertaining guests.</li>
+                    <li><span style="font-weight: bold;">Modern Kitchen: </span>
+                        Fully equipped with modern appliances, ample storage, and a convenient layout, making meal preparation a breeze.</li>
+                    <li><span style="font-weight: bold;">Two Comfortable Bedrooms: </span>
+                        Spacious and well-lit bedrooms designed for rest and relaxation, each with ample closet space.</li>
+                    <li><span style="font-weight: bold;">Stylish Bathroom: </span>
+                        A sleek, contemporary bathroom with high-quality fixtures and finishes.</li>
+                    <li><span style="font-weight: bold;">Outdoor Space: </span>
+                        A private backyard or patio area, ideal for outdoor dining or enjoying a morning coffee.</li>
+                    <li><span style="font-weight: bold;">Great Location: </span>
+                        Situated in a friendly neighborhood close to schools, parks, shopping, and public transport.</li>
                 </ul>
+                Schedule a Viewing Today! Don’t miss the opportunity to make this exquisite house your new home. Contact us today to schedule a private tour and see for yourself what makes this property so special. Welcome to your dream home!
             </div>
             <div class="butt-container">
                 <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
             </div>
+        </div>
         </div>
     </div>
 </div>

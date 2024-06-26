@@ -178,15 +178,39 @@ body {
 .footer {
     background-color: #f8f9fa;
     padding: 50px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.footer .container {
+    max-width: 1200px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: stretch;
+}
+
+.footer .section {
+    padding: 0 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .section:not(:last-child) {
+    border-right: 1px solid #dee2e6; /* Vertical line between sections */
 }
 
 .footer h5 {
     color: #333;
     font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .footer p {
     color: #666;
+    max-width: 350px; /* Adjust the width to reduce the height */
 }
 
 .footer ul {
@@ -196,6 +220,12 @@ body {
 
 .footer ul li {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li i {
+    margin-right: 10px;
 }
 
 .footer ul li a {
@@ -206,6 +236,28 @@ body {
 .footer ul li a:hover {
     color: #007bff;
 }
+
+.footer ul.list-inline {
+    padding-left: 0;
+}
+
+.footer ul.list-inline-item {
+    margin-bottom: 10px;
+}
+
+.footer ul.list-inline-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer ul.list-inline-item a:hover {
+    color: #007bff;
+}
+
+.footer ul.list-inline-item i {
+    margin-right: 5px;
+}
+
 
 .button-container {
     position: absolute;
@@ -352,6 +404,17 @@ body {
     align-items: center;
     opacity: 0;
     /* Initially hide the overlay content */
+}
+
+.overlay-content .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.overlay-content .card-text {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .overlay-content.visible {
@@ -533,9 +596,9 @@ body {
 
 .text-section {
     flex: 3; /* 30% of the width */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    max-height: 80vh; /* Added to limit height and enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 20px; /* Optional, to avoid scrollbar overlap */
 }
 
 .desc {
@@ -620,6 +683,7 @@ body {
 }
 
 
+
 .link-text {
     text-decoration: underline;
     color: inherit; /* Ensures the link color inherits from the parent */
@@ -692,24 +756,28 @@ body {
 
     .image-section {
         margin-left: 0;
-        order: 3;
+        order: 1;
     }
 
     .text-section {
-        order: 1;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        order: 2;
+        max-height: initial; /* Reset max-height for full content display */
+        overflow-y: visible; /* Allow natural scrolling behavior */
+        /* text-align: center; */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        border: none;
 
     }
 
-    .features {
-        /* order: 2; */
-        /* margin-top: -200px; */
+    /* .features {
+        order: 2;
+        margin-top: -200px;
         text-align: center;
-    }
+    } */
 
     .estate-details .description {
         margin-top: 20px;
+        border: none;
     }
 
     .estate-details h1 {
@@ -750,6 +818,73 @@ body {
     .welcome-message {
         font-size: 2rem; /* Adjust font size for tablets */
     }
+
+    .footer .section {
+        margin-bottom: 20px; /* Reduce space between sections */
+    }
+
+    .footer h5 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .footer p {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .footer ul li a {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Hide About Us section on smaller screens */
+    .footer .section:nth-child(1) {
+        display: none;
+    }
+
+    .mission-section {
+        margin-top: 150px;
+    }
+    
+    .mission-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        color: #333;
+    }
+    
+    .mission-section .mission-statement {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .team-section {
+        margin-top: 150px; /* Adjust margin for team section */
+    }
+
+    .team-section h1 {
+        font-size: 2.5rem; /* Adjusted font size for team heading */
+        text-align: center; /* Center-align team heading */
+        color: #333; /* Adjust color for readability */
+    }
+
+    .team-description {
+        font-size: 1.2rem; /* Adjusted font size for team description */
+        line-height: 1.8; /* Adjusted line height for readability */
+        color: #666; /* Adjust color for readability */
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+
+    .team-members {
+        list-style-type: none; /* Remove list bullets */
+        padding-left: 0; /* Remove default padding */
+    }
+
+    .team-members li {
+        font-size: 1rem; /* Adjusted font size for team members */
+        color: #444; /* Adjust color for readability */
+        margin-bottom: 10px; /* Adjust margin between team members */
+    }
+    
     
 }
 

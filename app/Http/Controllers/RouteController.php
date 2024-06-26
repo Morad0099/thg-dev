@@ -66,4 +66,24 @@ class RouteController extends Controller
 
         return view('modules.queens_park.index', compact('interiorImages', 'exteriorImages'));
     }
+
+    public function about_us() : View
+    {
+        return view('modules.about_us.index');
+    }
+
+    public function mission() : View
+    {
+        return view('modules.mission.index');
+    }
+
+    public function vision() : View
+    {
+        return view('modules.vision.index');
+    }
+
+    public function team() : View
+    {
+        return view('modules.team.index');
+    }
 }

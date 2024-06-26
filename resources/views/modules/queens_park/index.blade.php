@@ -12,22 +12,28 @@
             </div>
         </div>
         <div class="text-section">
-            <p class="desc">
-                Queens Park Estate offers luxury living with modern amenities and beautiful surroundings.
-                Located in the heart of the city, it provides easy access to all major attractions and facilities.
-            </p>
-            <div class="features">
-                <h2>Features</h2>
-                <ul>
-                    <li>Spacious living areas</li>
-                    <li>Modern kitchen with state-of-the-art appliances</li>
-                    <li>Beautifully landscaped gardens</li>
-                    <li>24/7 security</li>
-                    <li>Swimming pool</li>
-                </ul>
-            </div>
-            <div class="butt-container">
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+            <div class="scrollable-content">
+                <p class="desc">
+                    Welcome to Queens Park. This stunning 6-bedroom house offers the perfect blend of luxury, comfort, and modern living. This home is ideal for families looking for spacious living areas and high-end finishes. Starting price $550,000.00.
+                </p>
+                <div class="features">
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li><span style="font-weight: bold;">Grand Living Areas: </span>
+                            Multiple spacious living areas, including a formal living room, family room, and a separate dining room.</li>
+                        <li><span style="font-weight: bold;">Chef’s Kitchen: </span>
+                            A state-of-the-art kitchen equipped with high-end appliances, granite countertops, and custom cabinetry.</li>
+                        <li><span style="font-weight: bold;">Six Luxurious Bedrooms: </span>
+                            Generously sized bedrooms with ample closet space, including a master suite with a walk-in closet and a spa-like en-suite bathroom.</li>
+                        <li><span style="font-weight: bold;">Elegant Bathrooms: </span>
+                            Multiple bathrooms with premium fixtures and finishes, including a luxurious master en-suite.</li>
+                        <li><span style="font-weight: bold;">Exclusive Location: </span>
+                            Located in a prestigious neighborhood with top-rated schools, shopping, parks, and easy access to transportation.</li>
+                    </ul>
+                </div>
+                <div class="butt-container">
+                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                </div>
             </div>
         </div>
     </div>
