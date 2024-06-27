@@ -10,9 +10,14 @@
             <img src="/images/x.2.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
-            <h1 class="welcome-message">Welcome to Treehill Global Developers</h1>
+            <h1 class="welcome-message">Turning Dreams into Your Address</h1>
             <!-- Navigation Items -->
         </div>
+        <div class="content-overlay">
+            <h4>We are dedicated to helping you find your dream home. Explore our listings and discover the possibilities.</h4>
+        </div>
+
+        
         {{-- <x-navbar></x-navbar> --}}
         {{-- <div class="button-container">
             <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
