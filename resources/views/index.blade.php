@@ -28,7 +28,7 @@
     <div class="fullscreen2-bg">
         <div class="description">
             <h3>Thessa's Corner</h3>
-            <p class="price">FROM $70,000 to $140,000</p>
+            <p class="price">Starting price $250,000.00.</p>
             <p class="location">Location: EAST LEGON AMERICA HOUSE</p>
         </div>
         <div class="content-overlay">
@@ -43,7 +43,7 @@
     <div class="fullscreen6-bg">
         <div class="description">
             <h3>Hillgrove</h3>
-            <p class="price">FROM $70,000 to $140,000</p>
+            <p class="price">Starting price $75,000.00</p>
             <p class="location">Location: EAST LEGON ADJIRINGANOR</p>
         </div>
         <div class="content-overlay">
@@ -58,7 +58,7 @@
     <div class="fullscreen3-bg">
         <div class="description">
             <h3>Lucas Court</h3>
-            <p class="price">FROM $100,000 to $340,000</p>
+            <p class="price">Starting price $70,000.00</p>
             <p class="location">Location: EAST LEGON HILLS</p>
         </div>
         <div class="content-overlay">
@@ -73,7 +73,7 @@
     <div class="fullscreen4-bg">
         <div class="description">
             <h3>Hill Rise Villas</h3>
-            <p class="price">FROM $70,000 to $140,000</p>
+            <p class="price">Starting price $90,000.00</p>
             <p class="location">Location: EAST LEGON ADJIRINGONOR</p>
         </div>
         <div class="content-overlay">
@@ -88,7 +88,7 @@
     <div class="fullscreen5-bg">
         <div class="description">
             <h3>Queens Park</h3>
-            <p class="price">FROM $100,000 to $340,000</p>
+            <p class="price">Starting price $550,000.00</p>
             <p class="location">Location: EAST LEGON HILLS</p>
         </div>
         <div class="content-overlay">
