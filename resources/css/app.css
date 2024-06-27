@@ -32,7 +32,7 @@ body {
 
 .welcome-message {
     color: white;
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
@@ -42,7 +42,7 @@ body {
 
 
 .content-overlay h4 {
-    margin-top: 250px; /* Add some top margin for separation from h1 */
+    margin-top: 150px; /* Add some top margin for separation from h1 */
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
     color: #ffb600;
