@@ -722,6 +722,10 @@ body {
     background-color: #3498db;
 }
 
+.mobile-view {
+    display: none;
+}
+
 
 
 /* Media Queries for Responsiveness */
@@ -829,10 +833,11 @@ body {
         margin-bottom: 10px; /* Add some bottom margin for separation */
     }
 
-    .content-overlay h4 {
-        font-weight: bold;
-        color: #ffb600;
-        font-size: 1rem; /* Adjust font size for tablets */
+    .desktop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
     }
 
     

@@ -14,8 +14,10 @@
             <!-- Navigation Items -->
         </div>
         <div class="content-overlay">
-            <h4>We are dedicated to helping you find your dream home. <br> Explore our listings and discover the possibilities.</h4>
+            <h4 class="desktop-view">We are dedicated to helping you find your dream home. <br> Explore our listings and discover the possibilities.</h4>
+            <h4 class="mobile-view">We are dedicated to helping you find your dream home. Explore our listings and discover the possibilities.</h4>
         </div>
+        
         
 
         
