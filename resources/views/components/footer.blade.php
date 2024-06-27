@@ -18,10 +18,10 @@
             <div class="col-md-4 section">
                 <h5>Follow Us</h5>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="https://facebook.com/THGDevelopers"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/THGDevelopers"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    <li class="list-inline-item"><a href="https://instagram.com/THGDevelopers"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li class="list-inline-item"><a href="https://tiktok.com/@THGDevelopers"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61552657650118&mibextid=LQQJ4d"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li class="list-inline-item"><a href="https://x.com/hillrise_villas?s=11"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/hillrise_villas?igsh=MXNlMjNwZGRrdnFqZQ%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li class="list-inline-item"><a href="https://www.tiktok.com/@hillrise.villas?_t=8nWoPmz7KvF&_r=1"><i class="fab fa-tiktok"></i> TikTok</a></li>
                 </ul>
             </div>
         </div>
