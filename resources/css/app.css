@@ -838,6 +838,8 @@ body {
     }
     .mobile-view {
         display: block;
+        font-size: 1rem;
+        margin-top: 20px;
     }
 
     
