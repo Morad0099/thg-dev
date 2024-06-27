@@ -7,6 +7,8 @@
     {{-- <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
     @vite('resources/css/app.css')
     <link rel="icon" href="{{ asset('logo/IMG_3682.PNG') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('logo/IMG_3682.PNG') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('logo/IMG_3682.PNG') }}">
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
