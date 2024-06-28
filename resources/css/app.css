@@ -100,6 +100,8 @@ body {
     position: absolute;
     top: 15%;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
+
 }
 
 .description h3 {
