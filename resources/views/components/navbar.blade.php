@@ -90,31 +90,31 @@
     <div class="overlay-content">
         <div class="estate-container">
             <div class="estate">
-                <img src="images/w1.jpg" alt="Estate 1" class="estate-img">
+               <a href="{{ route('thessas_corner') }}"> <img src="images/hil1.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Thessa's Corner</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('thessas_corner') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-                <img src="images/w4.jpg" alt="Estate 1" class="estate-img">
+               <a href="{{ route('hillgrove') }}"> <img src="images/w4.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Hillgrove</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('hillgrove') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-                <img src="images/w3.jpg" alt="Estate 1" class="estate-img">
+              <a href="{{ route('lucas_court') }}">  <img src="images/NG2.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Lucas Court</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('lucas_court') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-                <img src="images/x.2.jpg" alt="Estate 1" class="estate-img">
+             <a href="{{ route('hill_rise_villas') }}">  <img src="/images/high.jpg" alt="Estate 1" class="estate-img"></a> 
                 <h6 class="estate-name">Hill Rise Villas</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('hill_rise_villas') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-                <img src="images/x.1.jpg" alt="Estate 1" class="estate-img">
+              <a href="{{ route('queens_park') }}"> <img src="images/x.1.jpg" alt="Estate 1" class="estate-img"></a> 
                 <h6 class="estate-name">Queens Park</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('queens_park') }}" class="link-text">More Details</a>
