@@ -833,7 +833,7 @@ body {
     }
 
     .welcome-message {
-        font-size: 2rem; /* Adjust font size for tablets */
+        font-size: 1.5rem; /* Adjust font size for tablets */
         text-align: center; /* Center align the heading */
         margin-bottom: 10px; /* Add some bottom margin for separation */
     }
@@ -844,7 +844,7 @@ body {
     .mobile-view {
         display: block;
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     
