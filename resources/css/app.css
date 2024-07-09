@@ -36,7 +36,7 @@ body {
     text-align: center;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for better readability */
-    margin: 0 20px; /* Optional: Add margin to prevent text from touching screen edges */
+    margin: 0 30px; /* Optional: Add margin to prevent text from touching screen edges */
     pointer-events: all; /* Ensure the text itself can be interactive if needed */
 }
 
