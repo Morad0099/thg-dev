@@ -27,6 +27,21 @@
             <button class="btn btn-secondary">More Details</button>
         </div> --}}
     </div>
+    <div class="fullscreen4-bg">
+        <div class="description">
+            <h3>Hill Rise Villas</h3>
+            <p class="price">Starting price $90,000.00</p>
+            <p class="location">Location: EAST LEGON ADJIRINGONOR</p>
+        </div>
+        <div class="content-overlay">
+            <!-- Add any content you want to display over the image here -->
+            <!-- Navigation Items -->
+        </div>
+        <div class="button-container">
+            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
+            <button class="btn btn-secondary" onclick="window.location.href='{{route('hill_rise_villas')}}'">More Details</button>
+        </div>
+    </div>
     <div class="fullscreen2-bg">
         <div class="description">
             <h3>Thessa's Corner</h3>
@@ -72,21 +87,7 @@
             <button class="btn btn-secondary" onclick="window.location.href='{{route('lucas_court')}}'">More Details</button>
         </div>
     </div>
-    <div class="fullscreen4-bg">
-        <div class="description">
-            <h3>Hill Rise Villas</h3>
-            <p class="price">Starting price $90,000.00</p>
-            <p class="location">Location: EAST LEGON ADJIRINGONOR</p>
-        </div>
-        <div class="content-overlay">
-            <!-- Add any content you want to display over the image here -->
-            <!-- Navigation Items -->
-        </div>
-        <div class="button-container">
-            <a href="https://wa.me/233558871838"><button class="btn btn-primary">Buy Now</button></a>
-            <button class="btn btn-secondary" onclick="window.location.href='{{route('hill_rise_villas')}}'">More Details</button>
-        </div>
-    </div>
+   
     <div class="fullscreen5-bg">
         <div class="description">
             <h3>Queens Park</h3>

@@ -13,6 +13,10 @@
                     <li><i class="fas fa-globe"></i> Website: <a href="https://thgdevelopers.com">thgdevelopers.com</a></li>
                     <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@THGDevelopers.com.gh">info@THGDevelopers.com.gh</a></li>
                     <li><i class="fas fa-phone"></i> Phone: + (233) 558-871838</li>
+                    <li><i class="fab fa-whatsapp"></i> WhatsApp: + (233) 558-871838</li>
+                    <li><i class="fab fa-whatsapp"></i> WhatsApp: + 1 (917) 355-1663</li>
+                    <li><i class="fab fa-whatsapp"></i> WhatsApp: + 44 7535 15 1449</li>
+
                 </ul>
             </div>
             <div class="col-md-4 section">
