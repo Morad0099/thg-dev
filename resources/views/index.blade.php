@@ -10,7 +10,7 @@
             <img src="/images/x.2.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
-            <h1 class="welcome-message">Turning Dreams into Your Address</h1>
+            <h1 class="welcome-message">Redefining Elegance in the Heart of Accra.</h1>
             <!-- Navigation Items -->
         </div>
         <div class="content-overlay">

@@ -22,7 +22,8 @@ class RouteController extends Controller
     public function lucas_court() : View
     {
         $interiorImages = [
-            '04.jpg', '05.jpg', '06.jpg', '07.jpg','w1.jpg', 'w2..jpg', 'w3.jpg'
+            '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', 'AERIAL HL.jpg', 'AR1.jpg', 'AR2.jpg', 'AR3.jpg', 'fl...jpg', 'flx..jpg', 'gf. fl.jpg', 'NG1.jpg','NG2.jpg','NG3.jpg'
+
         ];
         $exteriorImages = [
             'w1.jpg', 'w2..jpg', 'w3.jpg'
@@ -34,7 +35,7 @@ class RouteController extends Controller
     public function hillgrove() : View
     {
         $interiorImages = [
-            '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', 'AERIAL HL.jpg', 'AR1.jpg', 'AR2.jpg', 'AR3.jpg', 'fl...jpg', 'flx..jpg', 'gf. fl.jpg', 'NG1.jpg','NG2.jpg','NG3.jpg'
+            '04.jpg', '05.jpg', '06.jpg', '07.jpg','w1.jpg', 'w2..jpg', 'w3.jpg'
         ];
         $exteriorImages = [
             'hil1.jpg', 'hil2.jpg', 'hil3.jpg'
