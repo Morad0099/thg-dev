@@ -21,6 +21,7 @@
                     thoughtful design, this home is ideal for families looking for their forever home. Starting price at
                     $250,000.00.
                 </p>
+                
                 <div class="features">
                     <h2>Key Features</h2>
                     <ul>
