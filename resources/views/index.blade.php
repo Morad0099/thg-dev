@@ -6,7 +6,7 @@
             <img src="/images/hil1.jpg" alt="Image 1">
             <img src="/images/high.jpg" alt="Image 2">
             <img src="/images/hil2.jpg" alt="Image 3">
-            <img src="/images/w2..jpg" alt="Image 4">
+            <img src="/images/queens.jpeg" alt="Image 4">
             <img src="/images/x.2.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
