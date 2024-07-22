@@ -50,7 +50,7 @@
                     your dream home!
                 </div>
                 <div class="butt-container">
-                    <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                    <a href="https://wa.me/233558871838"><button class="btn btn-buy">Buy Now</button></a>
                 </div>
             </div>
             </div>

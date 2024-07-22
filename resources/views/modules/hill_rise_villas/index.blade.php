@@ -36,7 +36,7 @@
                 Don’t miss the opportunity to make this exquisite house your new home. Contact us today to schedule a private tour and see for yourself what makes this property so special. Welcome to your dream home!
             </div>
             <div class="butt-container">
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-buy">Buy Now</button></a>
             </div>
             
         </div>

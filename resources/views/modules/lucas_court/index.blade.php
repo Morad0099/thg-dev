@@ -34,7 +34,7 @@
                 <span style="font-weight: bold;">Why You'll Love This Home: </span> estates offer the ultimate in luxury living, with attention to every detail. Whether you’re hosting large gatherings or enjoying quiet family time, these homes provide the perfect setting for all your needs.
             </div>
             <div class="butt-container">
-                <a href="https://wa.me/233558871838"><button class="btn btn-primary">BUY NOW</button></a>
+                <a href="https://wa.me/233558871838"><button class="btn btn-buy">Buy Now</button></a>
             </div>
         </div>
         </div>

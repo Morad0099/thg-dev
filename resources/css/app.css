@@ -285,6 +285,36 @@ body {
     border-radius: 5px !important;
 }
 
+.btn-buy {
+    background: linear-gradient(45deg, #ffb600, #4ecdc4);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    animation: blink 1.5s infinite alternate;
+  }
+
+  .btn-buy:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.6;
+    }
+  }
+
 .btn-primary {
     background-color: #fff !important;
     border-color: #fff !important;
