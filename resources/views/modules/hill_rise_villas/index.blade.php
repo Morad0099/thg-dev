@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="estate-details">
-    <h1>HILL RISE VILLAS ESTATE</h1>
+    <h1>HILLRISE VILLAS ESTATE</h1>
     <div class="content-container">
         <div class="image-section">
             <div class="gallery-container">

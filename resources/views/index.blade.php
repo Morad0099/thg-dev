@@ -10,7 +10,7 @@
             <img src="/images/x.2.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
-            <h1 class="welcome-message">Redefining Elegance in the Heart of the City.</h1>
+            <h1 class="welcome-message">Redefining Elegance in the Heart of the City</h1>
             <!-- Navigation Items -->
         </div>
         <div class="content-overlay">
@@ -29,7 +29,7 @@
     </div>
     <div class="fullscreen4-bg">
         <div class="description">
-            <h3>Hill Rise Villas</h3>
+            <h3>HillRise Villas</h3>
             <p class="price">Starting price $90,000.00</p>
             <p class="location">Location: EAST LEGON ADJIRINGONOR</p>
         </div>
