@@ -3,9 +3,9 @@
 @section('content')
     <div class="carousel-container">
         <div class="carousel-slide">
-            <img src="/images/hil1.jpg" alt="Image 1">
-            <img src="/images/high.jpg" alt="Image 2">
-            <img src="/images/hil2.jpg" alt="Image 3">
+            <img src="/images/hillrise.jpg" alt="Image 1">
+            <img src="/images/lucas.jpg" alt="Image 2">
+            <img src="/images/thesas.jpg" alt="Image 3">
             <img src="/images/Queens.png" alt="Image 4">
             <img src="/images/Artboard 1.jpg" alt="Image 5">
         </div>

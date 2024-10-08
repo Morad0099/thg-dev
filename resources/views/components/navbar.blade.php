@@ -90,25 +90,25 @@
     <div class="overlay-content">
         <div class="estate-container">
             <div class="estate">
-               <a href="{{ route('thessas_corner') }}"> <img src="images/hil1.jpg" alt="Estate 1" class="estate-img"></a>
+               <a href="{{ route('thessas_corner') }}"> <img src="images/thessas.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Thessa's Corner</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('thessas_corner') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-               <a href="{{ route('hillgrove') }}"> <img src="images/w4.jpg" alt="Estate 1" class="estate-img"></a>
+               <a href="{{ route('hillgrove') }}"> <img src="images/Artboard 1.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Hillgrove</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('hillgrove') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-              <a href="{{ route('lucas_court') }}">  <img src="images/NG2.jpg" alt="Estate 1" class="estate-img"></a>
+              <a href="{{ route('lucas_court') }}">  <img src="images/lucas.jpg" alt="Estate 1" class="estate-img"></a>
                 <h6 class="estate-name">Lucas Court</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('lucas_court') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-             <a href="{{ route('hill_rise_villas') }}">  <img src="/images/Artboard 1.jpg" alt="Estate 1" class="estate-img"></a> 
+             <a href="{{ route('hill_rise_villas') }}">  <img src="/images/hillrise.jpg" alt="Estate 1" class="estate-img"></a> 
                 <h6 class="estate-name">HillRise Villas</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('hill_rise_villas') }}" class="link-text">More Details</a>
