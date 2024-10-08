@@ -108,13 +108,13 @@
                 <a href="{{ route('lucas_court') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-             <a href="{{ route('hill_rise_villas') }}">  <img src="/images/high.jpg" alt="Estate 1" class="estate-img"></a> 
+             <a href="{{ route('hill_rise_villas') }}">  <img src="/images/Artboard 1.jpg" alt="Estate 1" class="estate-img"></a> 
                 <h6 class="estate-name">HillRise Villas</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('hill_rise_villas') }}" class="link-text">More Details</a>
             </div>
             <div class="estate">
-              <a href="{{ route('queens_park') }}"> <img src="images/x.1.jpg" alt="Estate 1" class="estate-img"></a> 
+              <a href="{{ route('queens_park') }}"> <img src="images/Queens.png" alt="Estate 1" class="estate-img"></a> 
                 <h6 class="estate-name">Queens Park</h6>
                 <a href="https://wa.me/233558871838" class="link-text">Buy Now</a>
                 <a href="{{ route('queens_park') }}" class="link-text">More Details</a>

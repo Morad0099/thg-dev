@@ -7,7 +7,7 @@
             <img src="/images/high.jpg" alt="Image 2">
             <img src="/images/hil2.jpg" alt="Image 3">
             <img src="/images/Queens.png" alt="Image 4">
-            <img src="/images/x.2.jpg" alt="Image 5">
+            <img src="/images/Artboard 1.jpg" alt="Image 5">
         </div>
         <div class="content-overlay">
             <h1 class="welcome-message">Redefining Elegance in the Heart of the City</h1>

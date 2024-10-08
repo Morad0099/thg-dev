@@ -130,7 +130,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/w4.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/images/Artboard 1.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
